@@ -133,6 +133,7 @@ w3i:b44d8
     skos:narrower
         w3i:15298, w3i:32100, w3i:5aae2, w3i:6ef67, w3i:a5d24, w3i:a8035,
         w3i:cd4cf, w3i:fd4a0;
+        skos:prefLabel "Quark"@de;
     skos:topConceptOf w3i: .
 w3i:cd4cf
     a skos:Concept;
