@@ -1,0 +1,37 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix w3i: <https://w3id.org/>.
+
+w3i:
+    a skos:ConceptScheme;
+    dct:title "About_Vocab"@de;
+    skos:hasTopConcept w3i:709ff, w3i:983c3, w3i:b3685 .
+w3i:709ff
+a skos:Concept; skos:prefLabel "Support-Strukturen"@de; skos:topConceptOf w3i: .
+w3i:983c3
+    a skos:Concept;
+    skos:narrower w3i:a616a, w3i:c7126, w3i:e463a;
+    skos:prefLabel "Handlungsfelder der Lehre"@de;
+    skos:topConceptOf w3i: .
+w3i:a616a
+    a skos:Concept;
+    skos:broader w3i:983c3;
+    skos:inScheme w3i:;
+    skos:prefLabel "Lehre durchf\u00fchren"@de.
+w3i:b3685
+    a skos:Concept;
+    skos:narrower w3i:bc8be;
+    skos:prefLabel "Technisch-R\u00e4umliche Infrastruktur"@de;
+    skos:topConceptOf w3i: .
+w3i:bc8be
+    a skos:Concept;
+    skos:altlabel "MIZ & so"@de;
+    skos:broader w3i:b3685;
+    skos:inScheme w3i:;
+    skos:prefLabel "IT-Basis"@de.
+w3i:c7126
+    a skos:Concept;
+    skos:broader w3i:983c3;
+    skos:inScheme w3i:;
+    skos:prefLabel "Pr\u00fcfen"@de.
+w3i:e463a a skos:Concept; skos:inScheme w3i: .
